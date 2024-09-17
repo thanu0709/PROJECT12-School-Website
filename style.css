@@ -1,0 +1,613 @@
+body {
+    width: 100%;
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    height: 15vh;
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.primery-navbar-image img {
+    width: 150px;
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+
+.primery-navbar-image {
+    width: 300px;
+}
+
+.primery-navbar-content {
+    padding-top: 50px;
+    margin: auto;
+}
+
+.primery-navbar-content a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    padding: 10px 25px;
+    font-size: 1.5rem;
+}
+
+#primery-navbar a:hover {
+    background-color: #f0390f;
+    color: white;
+    border-radius: 30px;
+}
+
+.section-skating {
+    width: 100%;
+    height: 900px;
+}
+
+.skating {
+    width: 49%;
+    display: inline-block;
+}
+
+#skating-text {
+    vertical-align: top;
+    margin-top: 5rem;
+    padding-left: 5rem;
+}
+
+#skating-text img {
+    width: 150px;
+    margin-left: 5rem;
+    margin-top: 20px;
+}
+
+#skating-text h1 {
+    font-size: 5rem;
+    line-height: 1.2;
+    margin-left: 5rem;
+    margin-top: 4rem;
+    color: #2b2b2b;
+}
+
+#skating-image {
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#skating-class-header {
+    width: 100%;
+    height: 180px;
+}
+
+#skating-class-header h2,p {
+    text-align: center;
+}
+
+#skating-class-header h2 {
+    font-size: 3.5rem;
+}
+
+#skating-class-header p {
+    font-size: 1.4rem;
+    color: black;
+    margin-top: 20px;
+    
+}
+
+#skating-skateboard {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    height: 650px;
+    
+}
+
+.skateboard {
+    display: block;
+    margin-left: 50px;
+    width: 20%;
+    height: 450px;
+    border-radius: 20px;
+}
+
+.skateboard:nth-child(odd) {
+    background-color: orangered;
+}
+
+.skateboard:nth-child(even) {
+    background-color: #3e0bce;
+}
+
+.skateboard img {
+    width: 80px;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+#skate-class {
+    width: 70px;
+}
+
+.skateboard h3,p {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.skateboard h3 {
+    font-size: 2rem;
+}
+
+.button {
+    margin-top: 120px;
+    font-size: 25px;
+    font-weight:600;
+    color: black;
+    border: none;
+    background-color: white;
+}
+
+footer {
+    background-image: url(src/about_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 890px;
+}
+
+.about-footer {
+    width: 49%;
+    display: inline-block;
+}
+
+#about-footer-header {
+    width: 49%;
+    vertical-align: top;
+    margin-top: 15rem;
+    padding-left: 18rem;
+}
+
+#about-footer-header h2 {
+    color: white;
+    font-size: 3rem;
+}
+
+#about-footer-header p {
+    text-align: left;
+}
+
+#about-footer-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 49%;
+    height:750px;
+    margin-top: 5rem;
+}
+
+
+
+/* Extra small devices (phones) */
+@media  (max-width: 575.98px) {
+    header {
+        width: 100%;
+        height: 400px;
+    }
+
+    main {
+        height: 2600px;
+    }
+
+    #primery-navbar {
+        width: 100%;
+        height: 400px;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .primery-navbar-image {
+        width: 100%;
+    }
+
+    .primery-navbar-image img {
+        margin: auto;
+        padding-top: 30px;
+    }
+    
+    .primery-navbar-content {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 5px;
+    }
+
+    .section-skating {
+        width: 100%;
+        height: 700px;
+    }
+
+    #skating-text {
+        width: 100%;
+        height: 250px;
+        margin-top: 30px;
+        padding: 0%;
+    }
+
+    #skating-text img {
+        width: 100px;
+        margin: auto;
+        margin-top: 5px;
+    }
+    
+    #skating-text h1 {
+        margin-left: 0%;
+        font-size: 3.5rem;
+        margin-top: 1.5rem;
+        text-align: center;
+    }
+
+    #skating-image {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #skating-class-header {
+        width: 100%;
+        height: 300px;
+    }
+
+    #skating-skateboard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+        height: 1200px;
+    }
+
+    #section-skating-header {
+        width: 100%;
+        height: 1800px;
+    }
+
+    .skateboard {
+        display: block;
+        margin-left: 0px;
+        width: 70%;
+        height: 400px;
+        border-radius: 20px;
+        margin-top: 90px;
+        margin-bottom: 50px;
+    }
+
+    .button {
+        margin-top: 5px;
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+        height: 800px;
+        background-position: right top;
+    }
+    
+    .about-footer {
+        width: 49%;
+        display: block;
+    }
+    
+    #about-footer-header {
+        width: 100%;
+        height: 450px;
+        margin-top: 0;
+        padding-left: 0;
+    }
+    
+    #about-footer-header h2 {
+        font-size: 30px;
+        padding-top: 2.5rem;
+        text-align: center;
+    }
+    
+    #about-footer-header p {
+        text-align: center;
+        padding-top: 1.5rem;
+    }
+    
+    #about-footer-image {
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height:200px;
+        margin-top: 1rem;
+    }
+
+}
+
+/* small devices (landscape phones, tablets) */
+@media  (min-width: 576px) and (max-width: 767.98px) {
+    header {
+        height: 400px;
+    }
+
+    #primery-navbar {
+        width: 100%;
+        height: 400px;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .primery-navbar-image {
+        width: 100%;
+    }
+
+    .primery-navbar-image img {
+        margin: auto;
+        padding-top: 30px;
+    }
+    
+    .primery-navbar-content {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 5px;
+    }
+
+    .section-skating {
+        width: 100%;
+        height: 1000px;
+    }
+
+    #skating-text {
+        display: block;
+        width: 100%;
+        height: 300px;
+        margin-top: 4rem;
+        padding-left: 0%;
+    }
+
+    #skating-text img {
+        width: 150px;
+        margin: auto;
+        margin-top: 5px;
+    }
+    
+    #skating-text h1 {
+        font-size: 4rem;
+        margin-top: 2rem;
+        margin-left: 0%;
+        text-align: center;
+    }
+
+    #skating-image {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #section-skating-header {
+        height: 1200px;
+    }
+
+    #skating-class-header {
+        width: 100%;
+        height: 200px;
+    }
+
+    #skating-skateboard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+        height: 1200px;
+    }
+
+    #section-skating-header {
+        width: 100%;
+        height: 1800px;
+    }
+
+    .skateboard {
+        display: block;
+        margin-left: 0px;
+        width: 50%;
+        height: 400px;
+        border-radius: 20px;
+        margin-top: 90px;
+        margin-bottom: 50px;
+    }
+
+    .button {
+        margin-top: 70px;
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+        height: 800px;
+        background-position: right top;
+    }
+    
+    .about-footer {
+        width: 100%;
+        display: block;
+    }
+    
+    #about-footer-header {
+        width: 100%;
+        height: 300px;
+        margin-top: 0;
+        padding-left: 0;
+    }
+    
+    #about-footer-header h2 {
+        font-size: 30px;
+        padding-top: 2.5rem;
+        text-align: center;
+        word-spacing: 0.2em;
+    }
+
+    #about-footer-header h2 br {
+        display: none;
+    }
+    
+    #about-footer-header p {
+        text-align: center;
+        padding-top: 1.5rem;
+    }
+    
+    #about-footer-image {
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 75%;
+        height:100px;
+        margin: auto;
+        margin-top: 0;
+    }
+    
+}
+
+/* Medium devices (tablets) */
+@media  (min-width: 768px) and (max-width: 991.98px) {
+    header {
+        height: 15vh;
+    }
+
+    .section-skating {
+        width: 100%;
+        height: 1300px;
+    }
+
+    #skating-text h1 {
+        font-size: 4rem;
+        margin-top: 2rem;
+        margin-left: 0%;
+        text-align: center;
+    }
+
+    #skating-image {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #section-skating-header {
+        height: 1200px;
+    }
+
+    #skating-class-header {
+        width: 100%;
+        height: 200px;
+    }
+
+    #skating-skateboard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+        height: 1200px;
+    }
+
+    #section-skating-header {
+        width: 100%;
+        height: 1800px;
+    }
+
+    .skateboard {
+        display: block;
+        margin-left: 0px;
+        width: 50%;
+        height: 400px;
+        border-radius: 20px;
+        margin-top: 90px;
+        margin-bottom: 50px;
+    }
+
+    .button {
+        margin-top: 70px;
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+        height: 880px;
+        background-position: right top;
+    }
+    
+    .about-footer {
+        width: 100%;
+        display: block;
+    }
+    
+    #about-footer-header {
+        width: 100%;
+        height: 300px;
+        margin-top: 0;
+        padding-left: 0;
+    }
+    
+    #about-footer-header h2 {
+        font-size: 30px;
+        padding-top: 2.5rem;
+        text-align: center;
+        word-spacing: 0.2em;
+    }
+
+    #about-footer-header h2 br {
+        display: none;
+    }
+    
+    #about-footer-header p {
+        text-align: center;
+        padding-top: 1.5rem;
+    }
+    
+    #about-footer-image {
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 75%;
+        height:100px;
+        margin: auto;
+        margin-top: 0;
+    }
+
+}
+
+/* Larger devices (desktop) */
+@media  (min-width: 992px) and (max-width: 1199.98px) {
+    header {
+        height: 15vh;
+    }
+    
+    .primery-navbar-content a {
+        padding: 10px 10px;
+    }
+
+    .section-skating {
+        width: 100%;
+        height: 550px;
+    }
+
+    #section-skating-header {
+        width: 100%;
+        height: 800px;
+    }
+
+    .skateboard {
+        width: 30%;
+        margin: auto;
+    }
+
+    .button {
+        margin-top: 100px;
+        background-color: transparent;
+    }
+
+}
