@@ -47,6 +47,11 @@ header {
     height: 900px;
 }
 
+#section-skating-icon {
+    width: 100%;
+    height: 600px;
+}
+
 .skating {
     width: 49%;
     display: inline-block;
